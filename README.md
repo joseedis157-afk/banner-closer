@@ -62,3 +62,8 @@ const antiAdblockKeywords = [
   'desabilitar bloqueador',
   // adicione mais aqui
 ];
+
+## 🤖 Nota sobre a IA
+
+Este script foi desenvolvido com a assistência de IA (GitHub Copilot).
+A ideia, testes e validação foram feitos por Jose Edis.
