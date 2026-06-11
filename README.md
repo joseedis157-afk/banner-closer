@@ -1,69 +1,146 @@
-# 🚀 Banner Closer - Anti-Adblock Remover
+# 🚀 Web Recovery Kit - Scripts Universais de José Edis
 
-> Um userscript que remove banners de detecção de bloqueador de anúncios e outros overlays indesejados de forma automática.
+> Uma coleção de userscripts desenvolvidos para restaurar a usabilidade, acessibilidade e visualização de páginas web afetadas por overlays, travamentos, embaçamentos e outros bloqueios de interface.
 
 ## ✨ Características
 
-- ✅ **Remove banners anti-adblock** automaticamente
-- 🎯 **Detecta overlays** que não têm botão de fechar
-- ➕ **Adiciona botão X** em banners sem fechar
-- 🔄 **Monitoramento contínuo** de novos elementos
-- 📱 **Responsivo** - funciona em desktop e mobile
-- ⚡ **Leve e rápido** - sem impacto de performance
-- 🎨 **Interface limpa** com botão X vermelho
+* 🎯 Remoção automática de banners e overlays
+* 🔥 Recuperação de páginas travadas ou bloqueadas
+* 🎨 Remoção de blur e embaçamentos artificiais
+* 🔄 Monitoramento contínuo em tempo real
+* 📱 Compatível com desktop e dispositivos móveis
+* ⚡ Leve e otimizado para uso diário
+* 🛠️ Código aberto sob licença MIT
+
+---
+
+## 📦 Scripts Incluídos
+
+### 🎯 Banner Closer
+
+Remove banners, pop-ups e overlays indesejados.
+
+**Funcionalidades:**
+
+* ✅ Remove banners anti-adblock simples
+* ✅ Detecta overlays sem botão de fechar
+* ✅ Adiciona botão X em elementos compatíveis
+* ✅ Monitoramento contínuo de novos elementos
+
+---
+
+### 🔥 Anti-Congelamento Universal v2.0
+
+Remove bloqueios que impedem a interação com a página.
+
+**Funcionalidades:**
+
+* ✅ Remove overlays com z-index excessivo
+* ✅ Restaura scroll bloqueado
+* ✅ Remove iframes fullscreen invisíveis
+* ✅ Restaura conteúdo ocultado
+* ✅ Remove bloqueadores de clique
+* ✅ Monitoramento em tempo real
+
+---
+
+### 🎨 Anti-Blur Universal v1.0
+
+Remove efeitos visuais que dificultam a leitura e navegação.
+
+**Funcionalidades:**
+
+* ✅ Remove filtros blur
+* ✅ Restaura opacity reduzida
+* ✅ Remove backdrops escuros
+* ✅ Restaura textos ocultos
+* ✅ Remove backdrop-filters
+* ✅ Monitoramento contínuo
+
+---
 
 ## 🎬 Como Funciona
 
-O script funciona em duas frentes:
+Cada script atua em um problema específico encontrado em diversos sites:
 
-1. **Detecção de Anti-Adblock**: Procura por palavras-chave como "adblock", "bloqueador", "detectado" e remove automaticamente
-2. **Remoção de Overlays**: Detecta banners/modais fixos com z-index alto e adiciona um botão X para fechá-los
+### Banner Closer
+
+Procura banners, pop-ups e overlays que atrapalham a navegação.
+
+### Anti-Congelamento
+
+Detecta elementos que bloqueiam interação, cliques ou scroll.
+
+### Anti-Blur
+
+Restaura conteúdo visualmente ocultado por blur, opacity reduzida ou filtros semelhantes.
+
+---
 
 ## 📥 Instalação
 
 ### Pré-requisitos
-- Um navegador com suporte a userscripts (Via Browser, Tampermonkey, Greasemonkey, etc)
 
-### Passos
-1. Abra o gerenciador de userscripts do seu navegador
-2. Crie um novo script
-3. Cole o conteúdo do arquivo `banner-closer.user.js`
-4. Salve e ative!
+* Via Browser
+* Tampermonkey
+* Greasemonkey
+* Violentmonkey
+* Ou qualquer gerenciador compatível com userscripts
 
-## 🎯 Uso
+### Instalação
 
-Depois de instalado, o script funciona **automaticamente**:
+1. Escolha o script desejado
+2. Abra seu gerenciador de userscripts
+3. Crie um novo script
+4. Cole o conteúdo do arquivo correspondente
+5. Salve e ative
 
-- 🚫 Banners anti-adblock desaparecem sozinhos
-- ➕ Banners sem X ganham um botão para fechar
-- 🖱️ Clique no X vermelho para fechar qualquer banner
+---
 
-**É isso! Não precisa fazer mais nada!**
+## 🧪 Estado Atual do Projeto
 
-## 📊 Suporte
+⚠️ Estes scripts continuam em fase de testes.
 
-O script detecta e remove:
-- ✅ Banners de detecção de adblocker
-- ✅ Modais e pop-ups
-- ✅ Overlays de notificação
-- ✅ Avisos de cookies (parcialmente)
-- ✅ Mensagens de alerta
+Cada site utiliza mecanismos diferentes e os resultados podem variar.
 
-## ⚙️ Configuração
+Alguns sites podem funcionar perfeitamente.
 
-O script já vem pré-configurado e funciona em todos os sites. Mas você pode editar os **keywords** se quiser:
+Outros podem exigir ajustes específicos.
 
-```javascript
-const antiAdblockKeywords = [
-  'adblock',
-  'bloqueador',
-  'detectado',
-  'detectamos',
-  'desabilitar bloqueador',
-  // adicione mais aqui
-];
+Se encontrar problemas:
 
-## 🤖 Nota sobre a IA
+1. Informe o site
+2. Descreva o comportamento observado
+3. Abra uma issue
 
-Este script foi desenvolvido com a assistência de IA (GitHub Copilot).
-A ideia, testes e validação foram feitos por Jose Edis.
+---
+
+## 💡 Curiosidade
+
+Esses scripts foram criados a partir da observação de padrões visuais e comportamentos comuns presentes em diversos sites.
+
+A ideia surgiu ao identificar elementos recorrentes como overlays, blur, opacity reduzida, bloqueios de clique e travamentos de interface, buscando soluções genéricas que funcionassem em diferentes cenários.
+
+---
+
+## 🤖 Nota sobre IA
+
+Os scripts foram desenvolvidos com auxílio de IA como ferramenta de apoio.
+
+A concepção das ideias, testes práticos, validação dos resultados e direcionamento do projeto foram realizados por José Edis.
+
+---
+
+## 📝 Licença
+
+MIT License
+
+Sinta-se livre para estudar, modificar, distribuir e adaptar os scripts conforme suas necessidades.
+
+---
+
+## ❤️ Autor
+
+Criado por José Edis
+
+"Uma coleção de ferramentas criadas para recuperar a experiência de navegação quando a interface decide atrapalhar." 🚀
